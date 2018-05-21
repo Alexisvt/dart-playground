@@ -1,5 +1,5 @@
 import 'package:basic_dart/basic_dart.dart' as basic_dart;
 
 main(List<String> arguments) {
-  print('Hello world: ${basic_dart.calculate()}!');
+  print('Hello world: ${basic_dart.calculate()}');
 }
