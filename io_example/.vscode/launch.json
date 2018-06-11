@@ -6,9 +6,9 @@
   "configurations": [
     {
       "name": "Dart",
-      "type": "dart",
+      "program": "bin/main.dart",
       "request": "launch",
-      "program": "${workspaceFolder}/bin/main.dart",
+      "type": "dart",
       "vmAdditionalArgs": ["--enable-asserts"]
     }
   ]

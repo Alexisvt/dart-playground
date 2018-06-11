@@ -1,5 +1,10 @@
-import 'package:basic_dart/basic_dart.dart' as basic_dart;
-
 main(List<String> arguments) {
-  print('Hello world: ${basic_dart.calculate()}');
+  var isOn = true;
+  num age = 0;
+
+  int err = int.parse('asd', onError: (source) => null) ?? 0;
+
+  assert(false);
+
+  print(err);
 }
